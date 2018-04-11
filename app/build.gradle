@@ -28,18 +28,18 @@ dependencies {
     testImplementation  'junit:junit:4.12'
 
     // RecyclerView
-    implementation 'com.android.support:recyclerview-v7:27.1.0'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
 
     // Schematic dependencies for ContentProvider
     annotationProcessor 'net.simonvt.schematic:schematic-compiler:0.6.3'
     implementation 'net.simonvt.schematic:schematic:0.6.3'
 
     // Preferences Dependencies
-    implementation 'com.android.support:preference-v7:27.1.0'
+    implementation 'com.android.support:preference-v7:27.1.1'
 
     // Firebase dependency
     implementation 'com.google.firebase:firebase-messaging:12.0.1'
 }
 // Apply the Google Services plugin. Make sure to add the google-services.json file in the app
 // folder. You download it from the Firebase console
-//apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.gms.google-services'
